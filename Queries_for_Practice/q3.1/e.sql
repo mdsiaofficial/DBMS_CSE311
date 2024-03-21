@@ -15,7 +15,7 @@ and year = 2017;
 
 
 -- way 2:
-select takes.course-id, takes.sec-id, count(ID)
+select takes.course_id, takes.sec_id, count(ID)
 from section, takes
 where
     takes.course_id = section.course_id
